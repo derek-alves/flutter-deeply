@@ -10,11 +10,17 @@ dependencies:
   flutter:
     sdk: flutter
 
+  annotations:
+    path: ./lib/code_gen/annotations
+
 dev_dependencies:
   mocktail: ^1.0.4
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  generator:
+    path: ./lib/code_gen/generator
+  build_runner: ^2.4.15
 
 flutter:
   uses-material-design: true
