@@ -1,7 +1,5 @@
 import 'package:annotations/annotations.dart';
 
-part 'person.g.dart'; // This line is MANDATORY!
-
 @jsonGen
 class Person {
   final String name;
